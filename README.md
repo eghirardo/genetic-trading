@@ -1,4 +1,6 @@
 # Simple implementation and application of genetic algorithms
+### Disclaimer
+This code was written over the course of one or two nights in February of last year. I am now deciding to make it public because I think it's cool. However, this should not be taken as anything more than it is: code written by a teenager in one or two nights. So forgive me for how messy or stupid it is.
 
 ### Aim
 This notebook aims at creating a simple trading strategy using a genetic algorithm approach. The algorithm works by randomly generating actions for the different types of situations that can occur. Then, the strategy is given a score based on performance and the different randomly generated strategies can reproduce, with higher weight on more successfull parent strategies, while still keeping some genes random. Then, these strategies are left to reproduce and evolve for some generations, and the idea is that by incentivizing more successful strategies to reproduce, over the course of many generations the initially random strategies will become more and more successful.
